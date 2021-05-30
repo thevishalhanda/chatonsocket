@@ -1,0 +1,96 @@
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #DA4453;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+
+* {
+  box-sizing: border-box;
+  
+
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  align-items: center;
+  width: 280px;
+  height: 320px;
+  border: 2px solid black; 
+  border-radius: 10px;
+  margin-left: 350px;
+  margin-top: 48px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.joinInnerContainer {
+  width: 20%;
+}
+
+.joinInput {
+  
+  background-color: black;
+  border: 0px;
+  border-bottom: 2px solid crimson;
+  color:lightsalmon;
+  margin-left: -82px;
+
+  
+
+
+}
+
+.heading {
+  color: white;
+  font-size: 22px;
+  width: 100px;
+  margin-top: -50px;
+  margin-left: -104px;
+}
+
+.button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: orangered;
+    width: 172px;
+    margin-top: 48px;
+    margin-left: -82px;
+    height: 24px;
+    display: inline-block;
+    border: none;
+    border-radius: 2px;
+    
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(22, 22, 204, 0.1) 0px 8px 24px, rgba(75, 75, 197, 0.1) 0px 16px 56px;
+
+
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+
+
+}
+
+button:focus {
+  outline: 0;
+}
